@@ -352,6 +352,99 @@ font-weight: 400;
 line-height: 26px;
 margin-left: 32px;
 }
+
+.deals-discount{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.deals-discount h1{
+    color: #131318;
+    text-align: center;
+     font-size: 2.5rem;
+     font-weight: 800;
+     margin-bottom: 24px;
+
+}
+.deals-discount p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    
+    font-size: 1rem;
+   
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 24px;
+}
+
+.background-deals1{
+    background-image:url('../Images/Group\ 39.png');
+    background-image: cover;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 24px;
+}
+.deals-icon1{
+    width: 579px;
+height: 335px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin-top: 56px;
+
+margin-left: 530px;
+margin-bottom: 56px;
+margin-right: 56px;
+position: relative;
+
+}
+.icon-heading{
+    color: #131318;
+
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.icon-para{
+    color: #5A5A5D;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.icon-price{
+    color: #FF5400;
+
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.deals-icon2{
+    width: 579px;
+    height: 335px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-top: 56px;
+    
+    margin-right: 530px;
+    margin-bottom: 56px;
+    margin-left: 56px;
+    position: relative;
+}
+
 .place{
     max-width: 1250px;
     margin: 0 auto;
