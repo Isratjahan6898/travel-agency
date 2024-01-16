@@ -52,8 +52,10 @@
 }
 .banner-section{ 
     
-    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+
    
+   background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-blend-mode: multiply; 
     height: 500px;
     width: 100%;
     background-repeat: no-repeat;
@@ -110,7 +112,373 @@
     border: none;
     color: #FFF;
 
+}  
+
+
+.main{
+    max-width: 1440px;
 }
+.popular-tour{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px; 
+    gap:50px;
+}
+.tour-description{
+    width: 50%;
+   
+}
+
+.tour-description h1{
+
+    color: #131318;
+    font-size: 2.5rem;
+    font-style: normal;
+     font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.tour-description p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px; 
+     width: 525px;
+     margin-bottom: 24px;
+ 
+}
+ .tour-description ul, li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 525px;
+    
+
+ }
+
+.tour-img{
+    width: 50%;
+    width: 540px;
+    height: 550px;
+
+}
+
+.destination{
+    max-width: 1250px;
+    margin: 0 auto;
+   
+  
+    margin-top: 100px; 
+
+}
+.destination-title h1{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.destination-title p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+   font-size: 16px;
+   font-weight: 400;
+    line-height: 26px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 48px;
+   
+    
+}
+.img-flex1{
+    display: flex;
+    gap: 24px;
+}
+.img-flex2{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.img-flex3{
+    display: flex;
+    gap: 24px;
+    margin-top:24px;
+}
+.choose-us{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.choose-title h1{
+    color: #131318;
+    text-align: center;
+   font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.choose-title p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 45px;
+}
+
+.choose-card{
+    display: flex;
+    gap:24px;
+}
+.hotel-descripton{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+
+}
+.hotel-descripton img{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+margin-left: 32px;
+margin-top: 32px;
+}
+.hotel-descripton h1{
+    color: #131318;
+
+
+font-size: 1.5rem;
+
+font-weight: 800;
+margin-left:32px;
+margin-bottom: 20px;
+
+}
+.hotel-descripton p{
+    color: #5A5A5D;
+    margin-left: 32px;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.hotel-service{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.hotel-service img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+.hotel-service h1{
+    color: #131318;
+
+
+font-size: 1.5rem;
+
+font-weight: 800;
+margin-left:32px;
+margin-bottom: 20px;
+}
+.hotel-service p{
+    color: #5A5A5D;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-left: 32px;
+}
+.best-price{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05); 
+margin-top: 24px;
+margin-left: 300px;
+margin-right: 300px;
+
+}
+.best-price h1{
+    color: #131318;
+
+
+    font-size: 1.5rem;
+    
+    font-weight: 800;
+    margin-left:32px;
+    margin-bottom: 20px;
+
+}
+.best-price img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-top: 32px;
+
+}
+.best-price p{
+    color: #5A5A5D;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-left: 32px;
+}
+.place{
+    max-width: 1250px;
+    margin: 0 auto;
+   
+  
+    margin-top: 100px;
+}
+.place-div{
+    display: flex;
+}
+
+.perfect-place h1{
+    color: #131318;
+    width: 448px;
+font-size: 2.5rem;
+
+font-weight: 800;
+line-height: 60px;
+ margin-bottom: 24px;
+}
+.perfect-place P{
+
+
+font-size: 1REM;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin-bottom: 24PX;
+}
+.perfect-place ul, li{
+    color: #131318;
+
+font-size: 1rem;
+
+
+font-weight: 700;
+line-height: 26px; 
+margin-bottom: 24px;
+
+}
+.newsletter{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.news-div{
+    display: flex;
+    gap:40px;
+}
+.login-form{
+    width: 474px;
+height: 422px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.login-form h1{
+    color: #131318;
+
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 40px;
+margin-left: 40px;
+margin-bottom: 24px;
+}
+.login-form p{
+    color: #5A5A5D;
+font-size: 1rem;
+
+font-weight: 400;
+line-height: 26px;
+width: 350px;
+margin-bottom: 24px; 
+margin-left: 40px;
+}
+.login-text{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+margin-left:40px;
+margin-bottom: 16px;
+padding-left: 20px;
+}
+.login-email{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+margin-left: 40px;
+margin-bottom:16px;
+padding-left:20px ;
+}
+.login-btn{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+margin-left: 40px;
+padding-left: 20px;
+color: #FFF;
+border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer{
@@ -139,12 +507,41 @@
 }
 .footer-para p{
     color: #5A5A5D;
-     text-align: center;
+    text-align: center;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 26px; 
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    line-height: 26px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+.footer-icon{
+    text-align: center;
+   margin-top: 30px;
+   margin-bottom: 50px;
+   
+   
+    
+}
+.icon{
+    width: 40px;
+    height: 46.673px;
+
+}
+hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-left: 284px;
+    margin-right: 284px;
+    margin-bottom: 50px;
+ 
+}
+.footer-copyright p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 110px;
 }
   
